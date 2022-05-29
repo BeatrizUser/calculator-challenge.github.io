@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    background-color: #3B4664;
+    color: #efefef;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #f84791;
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.calculator{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display-calculator{
+    background-color: #181F32;
+    height: 65px;
+    color: #fff;
+}
+.keyboard-calculator{
+    background-color: #252D44;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.display-calculator,.keyboard-calculator{
+    border-radius: 5px;
+    margin: 10px;
+    width: 260px;
+    padding: 10px;
+}
+.btnnumb,.btnnumb-,.btnnumbPlus,.btnnumbDiv,.btnnumbMult,.btnnumbDel,.btnnumbDot{
+    background-color: #EAE3DB;
+    height: 36px;
+    width: 55px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: #B2A499 solid 3px;
+    margin: 5px;
+    color: #40434C;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btnReset, .btnResult{
+    border-radius: 5px;
+    height: 36px;
+    width: 120px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+.btnReset, .btnnumbDel{  
+    font-size: 0.9em;
+}
+.btnResult{
+    border: none;
+    background-color: #D13F30;
+    border-bottom: #8C1C1C solid 3px;
+    color: #fff;
+}
+.btnnumbDel, .btnReset{
+    background-color: #647299;
+    border-bottom: #414D75 solid 3px;
+    color: #fff;
+}
+.display-calculator{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.result-calculator{
+    padding: 5px;
+}
+.keyboard-calculator button:hover{
+    background-color: #fff;
+}
+.btnResult:hover{
+    background-color: #F96C5B !important;
+}
+.btnnumbDel:hover{
+    background-color: #A2B2E3 !important;
+}
+.btnReset:hover{
+    background-color: #A2B2E3 !important;
+}
