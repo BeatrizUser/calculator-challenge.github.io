@@ -42,8 +42,8 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Ana Beatriz Machado
-- Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/BeatrizUser)
+- Nome - [Ana Beatriz Machado](https://www.linkedin.com/in/ana-beatriz-machado-dev)
+- Mentor de frontend - [@BeatrizUser](https://www.frontendmentor.io/profile/BeatrizUser)
 - LinkedIn - (https://www.linkedin.com/in/ana-beatriz-machado-dev)
 
 
