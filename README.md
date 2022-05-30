@@ -1,4 +1,4 @@
-Solução de aplicativo Calculadora
+## Solução de aplicativo Calculadora
 
 Esta é uma solução para o [desafio do aplicativo Calculadora no Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
