@@ -4,6 +4,7 @@ body{
     background-color: hsl(222, 26%, 31%);
     color: #efefef;
     font-family: 'League Spartan', sans-serif;
+    transition: 1s;
 }
 a{
     text-decoration: none;
@@ -26,6 +27,11 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.changer_theme-calculator{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
 }
 .display-calculator{
     background-color: hsl(224, 36%, 15%);
@@ -102,4 +108,35 @@ a{
 }
 .btnReset:hover{
     background-color: #A2B2E3 !important;
+}
+
+
+
+
+
+
+.button{
+    position: relative;
+    width: 30px;
+    height: 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 2.5px 0 #39a2db59;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 102%;
+    border-radius: 50%;
+    background-color: #2f3030;
+    transition: left 1s;
+}
+.ball-move{
+    left: calc(100% - 15px);
+}
+.dark{
+    background-color: hsl(224, 36%, 15%);
 }
