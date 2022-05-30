@@ -36,9 +36,6 @@ Os usuários devem ser capazes de:
 - Flexbox
 - Grade CSS
 
-- [React](https://reactjs.org/) - biblioteca JS
-- [Componentes estilizados](https://styled-components.com/) - Para estilos
-
 
 ## Autor
 
