@@ -19,7 +19,7 @@ function setOperator(elementId) {
   if (outputValueTo.value == '0' || outputValueTo.value == 'Syntax error') {
     outputValueTo.value = '0';
   } else {
-    outputValueTo.value += elementId.textContent;
+    outputValueTo.value += elementId.value;
     document.getElementById('dec').disabled = false;
   }
 }
@@ -40,7 +40,6 @@ function calculate() {
       field1txt.value = calculateResult;
     }
   } catch (err) {
-
     field1txt.value = 'Syntax error';
 
   }
