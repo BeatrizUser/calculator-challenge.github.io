@@ -19,27 +19,27 @@
   <div class="calculator">
     <div class="body-calculator">
       <div class="display-calculator">
-        <h3 class="result-calculator">399,981</h3>
+        <input class="result-calculator" type='text' id='result-display' readonly value='0'/>
       </div>
       <div class="keyboard-calculator">
-        <button class="btnnumb">7</button>
-        <button class="btnnumb">8</button>
-        <button class="btnnumb">9</button>
-          <button class="btnnumbDel">DEL</button>
-        <button class="btnnumb">4</button>
-        <button class="btnnumb">5</button>
-        <button class="btnnumb">6</button>
-        <button class="btnnumbPlus">+</button>
-        <button class="btnnumb">1</button>
-        <button class="btnnumb">2</button>
-        <button class="btnnumb">3</button>
-        <button class="btnnumb-">-</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n7'>7</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n8'>8</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n9'>9</button>
+          <button class="btnnumbDel" onclick='removeLastNumber()' id='removeLast'>DEL</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n4'>4</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n5'>5</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n6'>6</button>
+        <button class="btnnumbPlus" onclick='setOperator(this)' id='sum'>+</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n1'>1</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n2'>2</button>
+        <button class="btnnumb" onclick='writeNumber(this)' id='n3'>3</button>
+        <button class="btnnumb-" onclick='setOperator(this)' id='sustract'>-</button>
         <button class="btnnumbDot">.</button>
-        <button class="btnnumb">0</button>
-        <button class="btnnumbDiv">/</button>
-        <button class="btnnumbMult">x</button>
-        <button class="btnReset">reset</button>
-        <button class="btnResult">=</button> 
+        <button class="btnnumb" onclick='writeNumber(this)' id='n0'>0</button>
+        <button class="btnnumbDiv" onclick='setOperator(this)' id='divide'>/</button>
+        <button class="btnnumbMult" onclick='setOperator(this)' id='multi'>x</button>
+        <button class="btnReset" onclick='cleartxt()' id='C'>reset</button>
+        <button class="btnResult" onclick='calculate()' id='calcular'>=</button> 
       </div>
     </div>
   </div>

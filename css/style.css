@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 body{
-    background-color: #3B4664;
+    background-color: hsl(222, 26%, 31%);
     color: #efefef;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 a{
     text-decoration: none;
@@ -28,12 +28,12 @@ a{
     flex-direction: column;
 }
 .display-calculator{
-    background-color: #181F32;
+    background-color: hsl(224, 36%, 15%);
     height: 65px;
     color: #fff;
 }
 .keyboard-calculator{
-    background-color: #252D44;
+    background-color: hsl(223, 31%, 20%);
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +54,7 @@ a{
     border: none;
     border-bottom: #B2A499 solid 3px;
     margin: 5px;
-    color: #40434C;
+    color: hsl(221, 14%, 31%);
     font-size: 20px;
     font-weight: 700;
 }
@@ -72,23 +72,24 @@ a{
 }
 .btnResult{
     border: none;
-    background-color: #D13F30;
-    border-bottom: #8C1C1C solid 3px;
+    background-color: hsl(6, 63%, 50%);
+    border-bottom: hsl(6, 70%, 34%) solid 3px;
     color: #fff;
 }
 .btnnumbDel, .btnReset{
-    background-color: #647299;
-    border-bottom: #414D75 solid 3px;
+    background-color: hsl(225, 21%, 49%);
+    border-bottom: hsl(224, 28%, 35%) solid 3px;
     color: #fff;
 }
-.display-calculator{
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
 .result-calculator{
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    width: 95%;
+    height: 90%;
     padding: 5px;
+    font-size: 30px;
+    text-align: end;
+    color: #fff;
 }
 .keyboard-calculator button:hover{
     background-color: #fff;
