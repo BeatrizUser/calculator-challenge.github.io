@@ -27,8 +27,8 @@ Os usuários devem ser capazes de:
 
 ![](./screenshot.png)
 
-- URL da solução: [Adicione o URL da solução aqui](https://www.frontendmentor.io/solutions/calculator-challenge-2JV61b9_XQ)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://beatrizuser.github.io/calculator-challenge.github.io/)
+- URL da solução: (https://www.frontendmentor.io/solutions/calculator-challenge-2JV61b9_XQ)
+- URL do site ao vivo: (https://beatrizuser.github.io/calculator-challenge.github.io/)
 
 
 - Marcação HTML5 semântica
