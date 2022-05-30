@@ -42,7 +42,7 @@ Os usuários devem ser capazes de:
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
+- Ana Beatriz Machado
 - Mentor de frontend - [@seunomedeusuário](https://www.frontendmentor.io/profile/BeatrizUser)
 - LinkedIn - (https://www.linkedin.com/in/ana-beatriz-machado-dev)
 
